@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="mystyle.css">
+		<title>General Auto Trinidad Ltd / Contact Form.</title>
+		<meta name="viewport" content="width=device-width initial-scale=1">
+		<style type="text/css">
+			
+		body {
+			background-image: url("img/building3.jpg");
+			width: 100%;
+			height:100%;
+		}
+		
+		
+		div {
+  			background-color: lightgrey;
+  			width: 80%;
+  			border: 15px solid red;
+  			padding: 50px;
+ 			 margin: 20px;
+		}
+
+			
+			form{
+				background: white;
+				display: flex;
+				flex-direction: column;
+				padding:2vw 4vw;
+				width: 80%;
+				max-width:600px;
+				border-radius: 20px;
+			}
+			input[type=submit] {
+				padding: 10px;
+				background: red;
+				color: black;
+				font-size: 18px;
+				border: 0;
+				outline: none;
+				cursor: pointer;
+				width:150px;
+				border-radius: 30px; 
+			}
+			 
+	
+			}
+		</style>
+
+		<script type="text/javascript">
+
+		function validate()
+		{
+			var fname = document.getElementById("fname");
+			var lname = document.getElementById("lname");
+			var email = document.getElementById("email");
+			var phone = document.getElementById("phone");
+			var complaints = document.getElementById("complaints");
+
+			if(fname.value.trim() ==""||lname.value.trim()==""||phone.value.trim() ==""||complaints.value.trim()==""||email.value.trim()=="")
+			{
+				alert("Form not completed, please complete form then submit.");
+				return false;
+			}
+			else
+			{
+				true;
+			}
+		}
+			
+
+		</script>
+		
+	</head>
+
+	<body>
+		<div>
+			<h1>General Auto Trinidad Ltd</h1>
+
+		<header>
+		<nav>
+			<ul id="mainnav">
+				<li><a href="generalauto.html">Home</a></li>
+				<li><a href="aboutus.html">About us</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="https://www.sbtjapan.com">Import Services</a></li>
+				<li><a href="contactus.html">Contact Us</a></li>
+				<li><a href="complaints.html">Complaints</a></li>
+			</ul>
+		</nav>
+		</header>
+		
+		<form onsubmit="return validate()" action="message.html">
+		
+  				<label for="fname">First name:</label><br>
+  				<input id="fname" placeholder="firstname"
+				type="text"/><br><br>
+			
+  				<label for="lname">Last name:</label><br>
+  				<input id="lname" placholder="last name"
+				type="text"/><br><br>
+			
+  				<label for="phone">Phone number:</label><br>
+  				<input id="phone" placeholder="Phone#"
+				type="text"/><br><br>			
+			
+  				<label for="email">Enter your email:</label>
+  				<input id="email" placeholder="Email address.:"
+				type="text"/><br><br>
+
+ 				<textarea id="complaints" style="width: 400px; height: 100px;">Your complaints.</textarea>
+  				<br><br>
+			
+			
+  				<input type="submit" value="Submit">
+  				
+		</form>
+    	
+		<footer>
+  			<p>Thank you for visiting us online. Have a great day.</p>
+		</footer>
+		</div>
+	</body>
+</html>

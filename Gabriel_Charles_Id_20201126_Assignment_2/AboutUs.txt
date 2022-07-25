@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="mystyle.css">
+		<title>General Auto Trinidad Ltd / About Us.</title>
+		<meta name="viewport" content="width=device-width initial-scale=1">
+		<style>
+
+			.div2 {
+				float: right;
+				padding-right: 60px;
+				padding-left: 60px;
+				padding-bottom: 10px;
+				padding-top: 40px;
+			}
+
+			.div1{
+				float: left;
+				max-width: 600px;
+				padding-left: 60px;
+				padding-right: 60px;
+			}
+			.div3 {
+				clear: right;
+
+			}
+		</style>
+	</head>
+
+	<body>
+		<header>
+			<h1>General Auto Trinidad Ltd</h1>
+		<nav>
+			<ul id="mainnav">
+				<li><a href="generalauto.html">Home</a></li>
+				<li><a href="aboutus.html">About us</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="https://www.sbtjapan.com">Import Services</a></li>
+				<li><a href="contactus.html">Contact Us</a></li>
+				<li><a href="complains.html">Complains</a></li>
+			</ul>
+		</nav>			
+		</header>
+			<hr>
+		<div class="div1">
+			<h2 style=color:crimson;>About Us:<h2>
+			
+			<p>Our company is built on our ability to get the job done. Our watchwords are integrity, efficiency and quality. 
+			We go above and beyond the call of duty to ensure that each and every one of our clients are treated with the utmost respect and can assure
+			you that doing business with General Auto trinidad limited is not a decision that will be regretted. </p>
+		</div>
+			
+		<div class="div2">
+			<img src="building1.jpg" alt="Bulding image" max-width="800" height="350">	
+		</div>
+			
+		<footer class="div3">
+  			<p>Thank you for visiting us online. Have a great day.</p>
+		</footer>
+	</body>
